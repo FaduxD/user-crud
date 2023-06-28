@@ -1,0 +1,38 @@
+.user-table {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.fa-edit:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+
+.fa-trash:hover {
+    color: lightcoral;
+    cursor: pointer;
+}
+
+
+input.form-control, 
+input.form-control:focus, 
+input.form-control:active {
+    background-color: #1b1b1b;
+    color: white;
+    border: 1px solid gray;
+}
+
+
+input.form-control:disabled {
+    background-color: rgb(41, 41, 41);
+    border: 1px solid gray;
+    color: white;
+}
+
+
+#modal input {
+    margin-bottom: 10px;
+}
